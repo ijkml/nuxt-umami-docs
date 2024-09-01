@@ -1,6 +1,25 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  compatibilityDate: '2024-08-30',
+
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+      ],
+    },
+  },
+
   extends: ['shadcn-docs-nuxt'],
-  compatibilityDate: '2024-07-06',
+
+  content: {
+    highlight: {
+      theme: {
+        default: 'github-light',
+        dark: 'houston',
+      },
+    },
+  },
+
+  devtools: { enabled: true },
 });

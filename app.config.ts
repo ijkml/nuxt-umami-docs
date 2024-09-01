@@ -1,8 +1,8 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs-nuxt',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      name: 'Nuxt Umami',
+      description: 'Umami Analytics built for Nuxt. Effortless analytics and real-time insights.',
     },
     theme: {
       customizable: true,
@@ -10,22 +10,22 @@ export default defineAppConfig({
       radius: 0.5,
     },
     header: {
-      title: 'shadcn-docs-starter',
+      title: 'Nuxt Umami',
       showTitle: true,
       darkModeToggle: true,
       logo: {
-        light: '/logo.svg',
+        light: '/logo-light.svg',
         dark: '/logo-dark.svg',
       },
       nav: [],
       links: [{
         icon: 'lucide:github',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/ijkml/nuxt-umami',
         target: '_blank',
       }],
     },
     aside: {
-      useLevel: true,
+      useLevel: false,
       collapse: false,
     },
     main: {
@@ -33,12 +33,19 @@ export default defineAppConfig({
       showTitle: true,
     },
     footer: {
-      credits: 'Copyright © 2024',
-      links: [{
-        icon: 'lucide:github',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
-        target: '_blank',
-      }],
+      credits: '©ML, with 🖤, Pluto.',
+      links: [
+        {
+          icon: 'ph:github-logo-duotone',
+          to: 'https://github.com/ijkml/nuxt-umami',
+          target: '_blank',
+        },
+        {
+          icon: 'ph:person-simple-throw-duotone',
+          to: 'https://ijkml.dev/?ref=https://umami.nuxt.dev',
+          target: '_blank',
+        },
+      ],
     },
     toc: {
       enable: true,
@@ -46,18 +53,18 @@ export default defineAppConfig({
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/ijkml/nuxt-umami',
         target: '_blank',
       }, {
         title: 'Create Issues',
         icon: 'lucide:circle-dot',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
+        to: 'https://github.com/ijkml/nuxt-umami/issues',
         target: '_blank',
       }],
     },
     search: {
       enable: true,
       inAside: false,
-    }
-  }
+    },
+  },
 });
