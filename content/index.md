@@ -12,19 +12,54 @@ announcement:
 actions:
   - name: Get Started
     to: /getting-started
-  - name: GitHub
+    leftIcon: 'ph:rocket-bold'
+  - name: Open in StackBlizt
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
-    leftIcon: 'lucide:github'
+    target: '_blank'
+    to: https://stackblitz.com/edit/nuxt-umami
+    leftIcon: 'ph:lightning-fill'
 ---
 
 #title
-Effortless and Beautiful :br Docs Template.
+Umami Analytics :br built for Nuxt.
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+Easily integrate Umami Analytics into your Nuxt app.
 ::
 
-<div class="border rounded-lg shadow-md">
-  <iframe src="/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0">
-</div>
+::section{class="mx-auto max-w-screen-md -mt-4 hero-card-group"}
+  ::card-group
+    ::card
+    ---
+    title: First-class SSR
+    icon: ph:computer-tower-duotone
+    to: /getting-started
+    ---
+    Built for SSR with no extra script loading and zero delay.
+    ::
+    ::card
+    ---
+    title: Composables
+    icon: ph:lego-duotone
+    to: /api/usage
+    ---
+    Auto-imported composables with JSDocs and IntelliSense.
+    ::
+    ::card
+    ---
+    title: Proxy Mode
+    icon: ph:mask-happy-duotone
+    to: /api/configuration#proxy-mode
+    ---
+    Escape script blockers, proxy API calls through your server.
+    ::
+    ::card
+    ---
+    title: Easy to use
+    icon: ph:code-duotone
+    to: /getting-started
+    ---
+    Simple and feature-complete, up to date and MIT-licensed.
+    ::
+  ::
+::
