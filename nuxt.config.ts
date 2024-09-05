@@ -21,5 +21,10 @@ export default defineNuxtConfig({
     },
   },
 
+  icon: {
+    scan: true,
+    includeCustomCollections: true,
+  },
+
   devtools: { enabled: true },
 });
