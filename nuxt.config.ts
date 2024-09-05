@@ -10,6 +10,12 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    '/v2-upgrade-guide': {
+      redirect: 'https://ijkml.dev/posts/nuxt-umami-v3?ref=https://umami.nuxt.dev',
+    },
+  },
+
   extends: ['shadcn-docs-nuxt'],
 
   content: {
