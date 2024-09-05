@@ -22,8 +22,12 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    scan: true,
-    includeCustomCollections: true,
+    mode: 'css',
+    serverBundle: false,
+    clientBundle: {
+      scan: true,
+      includeCustomCollections: true,
+    },
   },
 
   devtools: { enabled: true },
