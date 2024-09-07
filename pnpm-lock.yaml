@@ -15,8 +15,8 @@ importers:
         specifier: ^3.13.1
         version: 3.13.1(@parcel/watcher@2.4.1)(@types/node@22.5.4)(eslint@9.9.1(jiti@1.21.6))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.21.2)(terser@5.31.6)(typescript@5.5.4)(vite@5.4.3(@types/node@22.5.4)(terser@5.31.6))
       nuxt-umami:
-        specifier: 3.0.0-beta.3
-        version: 3.0.0-beta.3(magicast@0.3.5)(rollup@4.21.2)
+        specifier: 3.0.0
+        version: 3.0.0(magicast@0.3.5)(rollup@4.21.2)
       shadcn-docs-nuxt:
         specifier: ^0.5.2
         version: 0.5.2(@parcel/watcher@2.4.1)(@types/node@22.5.4)(eslint@9.9.1(jiti@1.21.6))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.21.2)(tailwindcss@3.4.10)(terser@5.31.6)(vite@5.4.3(@types/node@22.5.4)(terser@5.31.6))
@@ -3527,8 +3527,8 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  nuxt-umami@3.0.0-beta.3:
-    resolution: {integrity: sha512-/3tyDsoHQyJT4BEPqEzMeLocjtDenh4ZqQavr60KyTcoLIEy7N2eLQV7YnyBzCjs8m9+eQy8kLggIbxCGCwhyw==}
+  nuxt-umami@3.0.0:
+    resolution: {integrity: sha512-JK/QKKlG6ZQjp2SsEvUQzTBLuXW7D02ksB4hekFABQyPZ3TrJONuKxHcSatTAghepflTbtD8aiv8XR3wcm8JQQ==}
 
   nuxt@3.13.1:
     resolution: {integrity: sha512-En0vVrCJWu54ptShUlrqOGzXTcjhX+RnHShwdcpNqL9kmE9FWqeDYnPTgt2gJWrYSvVbmjJcVfEugNo9XpNmHA==}
@@ -9239,7 +9239,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  nuxt-umami@3.0.0-beta.3(magicast@0.3.5)(rollup@4.21.2):
+  nuxt-umami@3.0.0(magicast@0.3.5)(rollup@4.21.2):
     dependencies:
       '@nuxt/kit': 3.13.1(magicast@0.3.5)(rollup@4.21.2)
       request-ip: 3.3.0

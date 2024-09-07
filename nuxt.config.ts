@@ -18,6 +18,13 @@ export default defineNuxtConfig({
 
   extends: ['shadcn-docs-nuxt'],
 
+  modules: ['nuxt-umami'],
+
+  umami: {
+    domains: ['umami.nuxt.dev'],
+    proxy: 'cloak',
+  },
+
   content: {
     highlight: {
       theme: {
