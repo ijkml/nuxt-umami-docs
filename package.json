@@ -2,7 +2,7 @@
   "name": "shadcn-docs-nuxt-starter",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.9.0",
+  "packageManager": "pnpm@9.11.0",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -14,16 +14,15 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.0",
-    "nuxt": "^3.13.1",
-    "nuxt-umami": "3.0.0",
-    "shadcn-docs-nuxt": "^0.5.2",
-    "vue": "^3.5.2",
-    "vue-router": "^4.4.3"
+    "nuxt": "^3.13.2",
+    "nuxt-umami": "^3.0.2",
+    "shadcn-docs-nuxt": "^0.5.6",
+    "vue": "^3.5.10"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.2.0",
-    "@nuxt/icon": "^1.5.1",
-    "eslint": "^9.9.1",
+    "@antfu/eslint-config": "^3.7.3",
+    "@nuxt/icon": "^1.5.2",
+    "eslint": "^9.11.1",
     "eslint-plugin-format": "^0.1.2"
   }
 }
