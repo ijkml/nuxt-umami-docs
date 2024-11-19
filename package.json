@@ -14,11 +14,11 @@
   },
   "dependencies": {
     "@iconify-json/ph": "^1.2.0",
-    "nuxt": "^3.13.1",
+    "nuxt": "^3.14.1592",
     "nuxt-umami": "3.0.0",
     "shadcn-docs-nuxt": "^0.5.2",
-    "vue": "^3.5.2",
-    "vue-router": "^4.4.3"
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.2.0",
