@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 
   extends: ['shadcn-docs-nuxt'],
 
-  // modules: ['nuxt-umami'],
+  modules: ['nuxt-umami'],
 
   ogImage: {
     enabled: false,
