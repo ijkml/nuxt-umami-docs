@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       ],
     },
   },
@@ -18,7 +18,11 @@ export default defineNuxtConfig({
 
   extends: ['shadcn-docs-nuxt'],
 
-  modules: ['nuxt-umami'],
+  // modules: ['nuxt-umami'],
+
+  ogImage: {
+    enabled: false,
+  },
 
   umami: {
     domains: ['umami.nuxt.dev'],
