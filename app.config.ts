@@ -50,17 +50,26 @@ export default defineAppConfig({
     toc: {
       enable: true,
       title: 'On This Page',
-      links: [{
-        title: 'Star on GitHub',
-        icon: 'lucide:star',
-        to: 'https://github.com/ijkml/nuxt-umami',
-        target: '_blank',
-      }, {
-        title: 'Create Issues',
-        icon: 'lucide:circle-dot',
-        to: 'https://github.com/ijkml/nuxt-umami/issues',
-        target: '_blank',
-      }],
+      links: [
+        {
+          title: 'Star on GitHub',
+          icon: 'lucide:star',
+          to: 'https://github.com/ijkml/nuxt-umami',
+          target: '_blank',
+        },
+        {
+          title: 'Create Issues',
+          icon: 'lucide:circle-dot',
+          to: 'https://github.com/ijkml/nuxt-umami/issues',
+          target: '_blank',
+        },
+        {
+          title: 'Edit Docs',
+          icon: 'lucide:pencil-line',
+          to: 'https://github.com/ijkml/nuxt-umami-docs',
+          target: '_blank',
+        },
+      ],
     },
     search: {
       enable: true,
