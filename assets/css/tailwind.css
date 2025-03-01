@@ -111,4 +111,12 @@
   code {
     @apply inline-block;
   }
+
+  .nested-field {
+    @apply ml-2 mt-4 py-3 pl-4 border-l-4;
+
+    .text-primary {
+      @apply text-[0.9rem];
+    }
+  }
 }
