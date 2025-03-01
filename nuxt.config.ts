@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-07-06',
+  compatibilityDate: '2025-01-31',
 
   build: {
     transpile: ['shiki', 'ohash'],
