@@ -2,6 +2,10 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-01-31',
 
+  build: {
+    transpile: ['shiki', 'ohash'],
+  },
+
   app: {
     head: {
       link: [
@@ -39,11 +43,9 @@ export default defineNuxtConfig({
   },
 
   icon: {
-    mode: 'css',
-    serverBundle: false,
     clientBundle: {
       scan: true,
-      includeCustomCollections: true,
+      sizeLimitKb: 512,
     },
   },
 
