@@ -27,7 +27,9 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "shadcn-docs-nuxt"
+      "esbuild",
+      "shadcn-docs-nuxt",
+      "vue-demi"
     ]
   }
 }
