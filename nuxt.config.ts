@@ -6,6 +6,12 @@ export default defineNuxtConfig({
     transpile: ['shiki', 'ohash'],
   },
 
+  vite: {
+    ssr: {
+      noExternal: ['debug'],
+    },
+  },
+
   app: {
     head: {
       link: [
