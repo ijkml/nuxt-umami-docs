@@ -16,6 +16,6 @@
     "node_modules": true,
     ".unlighthouse": true,
     ".output": true,
-    "dist": true,
-  },
+    "dist": true
+  }
 }
