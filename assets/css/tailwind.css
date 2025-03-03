@@ -87,7 +87,13 @@
   }
 
   html {
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family:
+      Inter,
+      ui-sans-serif,
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      sans-serif;
     /* @apply text-balance text-pretty; */
   }
 
@@ -95,11 +101,11 @@
     @apply bg-background text-foreground;
   }
 
-  footer>div {
+  footer > div {
     @apply flex !flex-row;
   }
 
-  .hero-card-group .iconify[class*="i-ph"] {
+  .hero-card-group .iconify[class*='i-ph'] {
     @apply text-primary;
   }
 
